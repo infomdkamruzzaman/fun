@@ -1,0 +1,81 @@
+body{
+    background-color: aqua;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.speech{
+    margin: 0 auto; 
+    width: 24%;
+    margin-top: 50px;
+}
+#input-dropdown{
+    width: 95%;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/* #input-dropdown::placeholder{
+    padding-top: 15px;
+    padding-left: 20px;
+    color: black;
+} */
+.speech textarea{
+    width: 95%;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.speech textarea::placeholder{
+    padding-top: 15px;
+    padding-left: 20px;
+    color: black;
+}
+#repets{
+    width: 95%;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#repets::placeholder{
+    padding-top: 15px;
+    padding-left: 20px;
+    color: black;
+}
+#btn{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 145px;
+    border: 2px solid #000;
+}
+#btn:hover{
+    background: #03f80b;
+    transition: .9s;
+}
+.speech h2{
+    color: red;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+@media (max-width: 575.98px) { 
+    .speech {
+        width: 66%;
+        margin-top: 10%;
+    }
+
+ }
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    .speech {
+        width: 70%;
+        margin-top: 10%;
+    }
+ }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Synthesis Example</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="speech">
+        <h1>Text-to-Speech Converter</h1>
+
+        <!-- <input list="options" type="text" id="input-dropdown" placeholder="Select Name"> -->
+
+        <select id="input-dropdown" placeholder="Select Name">
+            <option value="0">Select Name</option>
+            <option value="Chuhan vai">Chuhan vai</option>
+            <option value="Hasibul">Hasibul</option>
+            <option value="Nahid">Nahid</option>
+            <option value="Humayon">Humayon</option>
+            <option value="Rafid">Rafid</option>
+        </select>
+        <textarea id="text"  placeholder="Enter text here"></textarea><br>
+        <!-- <textarea id="text" maxlength="7" placeholder="Name in 7 word"></textarea><br> -->
+        <input type="number" id="repets" placeholder="How many Times Repets">
+        <button onclick="speakText()" id="btn"><b>Speak</b></button>
+        <h2></h2>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
